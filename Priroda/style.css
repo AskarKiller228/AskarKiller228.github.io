@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+}
+.content {
+    text-align: center;
+        width: 70%;
+            margin: auto;
+                background-color: #90db8d;
+                    box-shadow: 0 0 10px 1px;
+}
+h1{
+    color: red;
+        font-size: 70px;
+}
+
+p
+{
+    color: slateblue;
+        font-size: 50px;
+            font-style: oblique;
+                font-family: 'Comic Neue', cursive;
+}
+img{
+    width: 800px;
+        
+}
+
