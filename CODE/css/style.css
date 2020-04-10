@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+        margin: 0;
+}
+    @font-face {
+        font-family: Girassol;
+        src: url(../fonts/Girassol-Regular.ttf);
+    }
+body {
+    background-color:wheat;
+}
+.content {
+    background-color: #ffffff;
+        width: 90%;
+            margin: auto;
+                display: flex;
+                    flex-wrap: wrap;
+                        box-shadow: 0 0 10px 1px;
+                            justify-content: center;
+}
+.image {
+            background-color: black;
+                margin: 10px;
+                    width: calc(50% - 40px);
+                        height: calc((40vw - 40px) / 16 * 9); 
+                            transition: all 0.4s ease;
+                                box-shadow: 0 0 15px 2px;
+                                
+}
+.image:hover{
+    transform: scale(1.1);
+}
+    
+                          
+.image1 {
+    background-image: url(../img/OMF.jfif); 
+        background-size: cover;
+}
+.image2 {
+    background-image: url(../img/scale_1200.webp);
+    background-size: cover;
+}
+.image3 {
+    background-image: url(../img/iron.jpg);
+    background-size: cover;
+}
+.image4{
+    background-image: url(../img/maxresdefault.jpg);
+    background-size: cover;
+}
+.image5 {
+    background-image: url(../img/ffff.jfif);
+    background-size: cover;
+}   
+.image6 {
+    background-image: url(../img/dims_12.jpg);
+    background-size: cover;
+}
+.image7 {
+    background-image: url(../img/FFF.jfif);
+    background-size: cover;
+}
+.image8 {
+    background-image: url(../img/807359.700xp.jpg);
+    background-size: cover;
+}
+.image9 {
+    background-image: url(../img/407752.700xp.jpg);
+    background-size: cover;
+}
+.image10 {
+    background-image: url(../img/960x540.webp);
+}
+h1 {
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 14px ;
+    font-family: Girassol;
+    font-size: 150px;
+}
